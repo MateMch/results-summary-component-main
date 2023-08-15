@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+.container{
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 736px;
+    height: 512px;
+    border-radius: 20px;
+}
+.box1 {
+position: relative;
+float: left;
+width: 368px;
+border: 100px;
+border-radius: 20px;
+height: 512px;
+background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+color: white;
+}
+.circle{
+height: 200px;
+width: 200px; 
+border-radius:50%;
+background: linear-gradient;
+background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.number{
+font-size: 50px;
+}
+.from{
+font-size: 18px;
+color:  hsl(241, 100%, 89%);
+}
+.paragraph{
+font-size: 15px;
+text-align: center;
+color:hsl(241, 100%, 89%);
+max-width: 200px; 
+}
+.Result{
+color:hsl(241, 100%, 89%);
+font-size: 18px;
+}
+.button{
+border-radius:40px ;
+width: 300px;
+height: 50px;
+font-size:18px ;
+color: white;
+background-color: hsl(224, 30%, 27%);
+cursor: pointer;
+border: none;
+position: relative;
+top:14px;
+}
+.button:hover{
+background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+}
+.right-content{
+display: flex;
+flex-direction: column;
+padding-bottom: 30px;
+}
+.title{
+position: relative;
+left:40px;
+top: 8px;
+font-size: 20px;
+}
+.Reaction{
+display: flex;
+width: 262px;
+border-radius: 10px;
+padding:14px;
+margin-bottom: 18px;
+font-weight: 500px;
+background-color: hsla(0, 100%, 67%, 0.1);
+}
+.Memory{
+display: flex;
+width: 262px;
+border-radius: 10px;
+padding:14px;
+margin-bottom: 18px;
+font-weight: 500px;
+background-color: hsla(39, 100%, 56%, 0.1);
+}
+.Verbal{
+display: flex;
+width: 262px;
+border-radius: 10px;
+padding:14px;
+margin-bottom: 18px;
+font-weight: 500px;
+background-color: hsla(166, 100%, 37%, 0.1);
+}
+.Visual{
+display: flex;
+width: 262px;
+border-radius: 10px;
+padding:14px;
+margin-bottom: 18px;
+font-weight: 500px;
+background-color: hsla(234, 85%, 45%, 0.1);
+}  
+.value1{
+position: relative;
+left: 120px;
+}
+.value2{
+position: relative;
+left: 123px;
+}
+.value3{
+position: relative;
+left: 137px;
+}
+.value4{
+position: relative;
+left: 140px;
+}
+.name1{
+position: relative;
+left: 15px;
+color:hsl(0, 100%, 67%);
+}
+.name2{
+position: relative;
+left: 15px;
+color:hsl(39, 100%, 56%);
+}
+.name3{
+position: relative;
+left: 15px;
+color:hsl(166, 100%, 37%);
+}
+.name4{
+position: relative;
+left: 15px;
+color:hsl(234, 85%, 45%);
+}
+.max{
+ color:gray;
+}
+@media(max-width:760px){
+.container{
+display: block;
+width:auto;
+top: 240px;
+}
+.button{
+position: relative;
+top: -22px;
+}
+.title{
+position: relative;
+top: 20px;
+}
+}
+ 
